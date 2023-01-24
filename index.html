@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Facebook Messenger clone">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
+    <meta name="description" content="Facebook Messenger clone">
+    <title>Facebook Messenger</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/image.webp" alt="Jeffrey Claybrook" width="36px" height="36px" loading="lazy">
+        <h1 id="title">Chats</h1>
+        <button aria-label="Camera" id="btn-1"><i class="fa-solid fa-camera"></i></button>
+        <button aria-label="Compose" id="btn-2"><i class="fa-solid fa-pencil"></i></button>
+    </header>
+    <main>
+        <section class="chats active" id="chats"></section>
+        <section class="calls" id="calls"></section>
+        <section class="people" id="people"></section>
+        <section class="stories" id="stories"></section>
+    </main>
+    <nav>
+        <a aria-label="Chats" class="active"><i class="fa-solid fa-comment"></i>Chats</a>
+        <a aria-label="Calls"><i class="fa-solid fa-video"></i>Calls</a>
+        <a aria-label="People"><i class="fa-solid fa-user-group"></i>People</a>
+        <a aria-label="Stories"><i class="fa-solid fa-lines-leaning"></i>Stories</a>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
